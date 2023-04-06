@@ -11,14 +11,7 @@ import (
 
         // Parse the JSON search result.
         // https://developers.google.com/web-search/docs/#fonje
-        var data struct {
-            ResponseData struct {
-                Results []struct {
-                    TitleNoFormatting string
-                    URL               string
-                }
-            }
-        }
+		
 // searchCmd represents the search command
 var searchCmd = &cobra.Command{
 	Use:   "search",
