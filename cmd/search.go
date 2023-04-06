@@ -6,9 +6,6 @@ package cmd
 
 import (
 	"fmt"
-	"context"
-	"net/http"
-	"encoding/json"
 	"github.com/spf13/cobra"
 )
 
